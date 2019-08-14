@@ -16,6 +16,8 @@ class _HomeScreenState extends State<HomeScreen> {
         elevation: 0,
         leading: IconButton(
           onPressed: (){},
+          ///make it usefull
+          ///hint: use drawer
           icon: Icon(Icons.menu),
           color: Colors.grey,
         ),
@@ -70,6 +72,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     children: <Widget>[
                       Row(
                         children: <Widget>[
+                          /// remember me next friday to tell u how to change the card color from blue to grey when tap on it
+                          /// the same for the heart
                           Card(
                             color: Colors.blue[700],
                             borderOnForeground: false ,
@@ -303,6 +307,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 ),
                                 child:  Row(
                                   children: <Widget>[
+                                    /// use he plugin here if u can
                                     Container(
                                       margin: EdgeInsets.only(left: 10),
                                       child: Icon(Icons.star,size: 17,color: Colors.yellow,),
